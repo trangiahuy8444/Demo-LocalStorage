@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: cadetblue;
+}
+
+.container
+{
+    background-color: burlywood;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.container form
+{
+    text-align: center;
+}
+
+.container form .username , .password, .email, .confirm-password
+{   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 350px;
+}
+
+.container form input
+{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.container form button
+{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
